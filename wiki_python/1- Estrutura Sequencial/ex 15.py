@@ -1,0 +1,8 @@
+print('CALCULO DO SALÁRIO 2.0')
+h = int(input('Quantas horas você trabalha por dia?: '))
+v = float(input('Quanto você recebe por hora?: R$'))
+print(f'Seu salário bruto é de: R${(h*30)*v:.2f}')
+print(f'Desconto -  Imposto de renda (IR): R${((h*30)*v)*0.11:.2f}')
+print(f'Desconto - (INSS): R${((h*30)*v)*0.08:.2f}')
+print(f'Desconto - Sindicato: R${((h*30)*v)*0.05:.2f}')
+print(f'Seu salário mensal líquido é de: R${((h*30)*v)*0.76:.2f}')
