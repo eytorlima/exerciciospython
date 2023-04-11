@@ -1,0 +1,8 @@
+z = input('Digite algo: ')
+print('"{}" Pode ser considerado alfa numérico? '.format(z), z.isalnum())
+print('"{}" Pode ser considerado um número? '.format(z), z.isnumeric())
+print('"{}" Pode ser considerado alfabético? '.format(z), z.isalpha())
+print('Pode-se dizer que "{}" foi escrito somente em letras maiúsculas? '.format(z), z.isupper())
+print('Pode-se dizer que "{}" foi escrito somete em letras minúsculas? '.format(z), z.islower())
+print('Pode-se dizer que "{}" é um espaço? '.format(z), z.isspace())
+print('"{}" está capitalizado? '.format(z), z.istitle())
